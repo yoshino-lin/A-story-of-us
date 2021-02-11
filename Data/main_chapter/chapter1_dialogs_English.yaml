@@ -1,0 +1,178 @@
+dialog_example:
+  head:
+    background_img: bg1.png
+    background_music: null
+    characters_img: null
+    content:
+    - This is our world...the place we live...
+    last_dialog_id: null
+    narrator: null
+    next_dialog_id:
+      target: 1
+      type: default
+  1:
+    background_img: research.jpg
+    background_music: null
+    characters_img:
+    - kalina_5.png&dark
+    - k.png&communication
+    content:
+    - 指挥官，按照计划，现在并不是我们的通讯时间
+    last_dialog_id: head
+    narrator: K
+    next_dialog_id:
+      target: 2
+      type: default
+  2:
+    background_img: research.jpg
+    background_music: null
+    characters_img:
+    - kalina_5.png&dark
+    - k&communication.png&dark
+    content:
+    - 现在究竟是什么状况，我想你比我还要清楚。我的梯队已经溃散
+    - 所以我想知道你所说的救援什么时候能够到达
+    last_dialog_id: 1
+    narrator: 我
+    next_dialog_id:
+      target: 3
+      type: default
+  3:
+    background_img: research.jpg
+    background_music: null
+    characters_img:
+    - kalina_5.png&dark
+    - k.png&communication
+    content:
+    - 我想你也该察觉到了，我所说的救援一直就在你们的身边
+    - 但如果东西没有拿到，我是不会让它们出手的
+    last_dialog_id: 2
+    narrator: K
+    next_dialog_id:
+      target: 4
+      type: default
+  4:
+    background_img: research.jpg
+    background_music: null
+    characters_img:
+    - kalina_5.png&dark
+    - k.png&communication&dark
+    content:
+    - 那我想知道，为什么你们一开始提供的情报里，并没有提到丝毫关于铁血的事情
+    last_dialog_id: 3
+    narrator: 我
+    next_dialog_id:
+      target: 5
+      type: default
+  5:
+    background_img: research.jpg
+    background_music: null
+    characters_img:
+    - kalina_5.png&dark
+    - k.png&communication
+    content:
+    - 按道理来讲，铁血应该不知道这件事。但就目前的情况来看，
+    - 我们的内部肯定有人把这份情报透露了出去
+    last_dialog_id: 4
+    narrator: K
+    next_dialog_id:
+      target: 6
+      type: default
+  6:
+    background_img: research.jpg
+    background_music: null
+    characters_img:
+    - kalina_5.png&dark
+    - k.png&communication&dark
+    content:
+    - 如果没有支援，我们的梯队很快就会支撑不住了，怎么可能会找得到你所要求的东西
+    last_dialog_id: 5
+    narrator: 我
+    next_dialog_id:
+      target: 7
+      type: default
+  7:
+    background_img: research.jpg
+    background_music: null
+    characters_img:
+    - kalina_5.png&dark
+    - k.png&communication
+    content:
+    - 那也没关系。既然你手下的人形只能做到支撑，那就继续支撑下去吧，其他的我会继续想办法的
+    last_dialog_id: 6
+    narrator: K
+    next_dialog_id:
+      target: 8
+      type: default
+  8:
+    background_img: research.jpg
+    background_music: null
+    characters_img:
+    - kalina_5.png&dark
+    content:
+    - 通讯结束
+    last_dialog_id: 7
+    narrator: null
+    next_dialog_id:
+      target: 9
+      type: default
+  9:
+    background_img: research.jpg
+    background_music: null
+    characters_img:
+    - kalina_5.png&dark
+    content:
+    - 该死，早知道一开始就不应接受这份委托。
+    last_dialog_id: 8
+    narrator: 我
+    next_dialog_id:
+      target: 10
+      type: default
+  10:
+    background_img: research.jpg
+    background_music: null
+    characters_img:
+    - kalina_8.png
+    content:
+    - 这也不是您的错...
+    last_dialog_id: 9
+    narrator: 格林娜
+    next_dialog_id:
+      target: 11
+      type: default
+  11:
+    background_img: research.jpg
+    background_music: null
+    characters_img:
+    - kalina_8.png&dark
+    content:
+    - 现在只希望，sv-98他们能够及时回来，之后再考虑其他的事情吧
+    last_dialog_id: 10
+    narrator: 我
+    next_dialog_id:
+      target: 12
+      type: default
+  12:
+    background_img: research.jpg
+    background_music: null
+    characters_img:
+    - kalina_5.png
+    content:
+    - 那如果她们没办法回来呢
+    last_dialog_id: 11
+    narrator: 格林娜
+    next_dialog_id:
+      target: 13
+      type: default
+  13:
+    background_img: research.jpg
+    background_music: null
+    characters_img:
+    - kalina_5.png&dark
+    content:
+    - 那我就...没有其他的办法了...
+    last_dialog_id: 12
+    narrator: 我
+    next_dialog_id:
+      target: 14
+      type: default

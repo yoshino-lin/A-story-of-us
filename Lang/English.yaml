@@ -1,0 +1,81 @@
+Dialog:
+  auto: Auto
+  choice: Choice
+  skip: Skip
+DialogCreator:
+  add: New dialog
+  back: Back to main menu
+  background: Background Image
+  delete: Delete current dialog
+  next: Next dialog
+  npc: Npc
+  please_enter_content: Content
+  please_enter_name: Name
+  previous: Previous dialog
+  reload: Reload configuration file
+  removeNpc: Remove this npc
+General:
+  back: Back
+  dialog_creator: Dialog Creator
+  game_title: A Story Of Us
+  map_creator: Map Creator
+  save: Save
+MainMenu:
+  menu_main:
+    0_continue: Continue
+    1_chooseChapter: Select Chapter
+    2_dlc: DLC
+    3_workshop: Workshop
+    4_collection: Collection
+    5_setting: Setting
+    6_developer_team: Development Team
+    7_exit: Exit
+  menu_workshop_choice:
+    0_play: Play
+  other:
+    confirm: 'Yes'
+    deny: 'No'
+    exit_confirm: Are you sure you want to quit the game?
+    new_chapter: Create New Chapter
+    new_collection: Create New Collection
+    tip: Tip
+Numbers:
+- Zero
+- One
+- Two
+- Three
+- Four
+- Five
+- Six
+- Seven
+- Eight
+- Nine
+- Ten
+- Eleven
+- Twelve
+- Thirteen
+- Fourteen
+- Fifteen
+- Sixteen
+- Seventeen
+- Eighteen
+- Nineteen
+- Twenty
+ProcessSaved: The process has been saved
+SaveGame: Save Game
+SelectMenu:
+  attack: Attack
+  interact: Interact
+  move: Move
+  reload: Reload
+  rescue: Rescue
+  skill: Skill
+SettingUI:
+  background_music: Background Music
+  cancel: Cancel
+  confirm: Confirm
+  currentLang: English
+  language: Language
+  setting: Setting
+  sound_effects: Sound Effects
+  sound_environment: Environmental Sounds
