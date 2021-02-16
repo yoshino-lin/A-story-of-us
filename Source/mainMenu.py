@@ -1,9 +1,10 @@
 from .dialogSystem import *
 
-class MainMenu(linpg.SystemObject):
+class MainMenu(linpg.SystemWithBackgroundMusic):
     def __init__(self,screen):
         #初始化系统模块
-        linpg.SystemObject.__init__(self)
+        linpg.SystemWithBackgroundMusic.__init__(self)
+        self.set_bgm("Assets/music/main_menu_bgm.ogg")
 
         #窗口标题图标
         linpg.display.set_icon("Assets/image/UI/icon.png")
@@ -17,11 +18,15 @@ class MainMenu(linpg.SystemObject):
         #主循环
         while self._isPlaying:
             self._update_event()
+            self.play_bgm()
             #背景视频
             self.bg_img.draw(screen)
             for event in self.events:
                 if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                     dialog("main_chapter",1,screen,"dialog_example")
+                elif event.type == pygame.KEYDOWN and event.key == pygame.K_p:
+                    dialogCreator("main_chapter",1,screen)
+                    pass
                 elif event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
                     linpg.display.quit()
             linpg.display.flip()

@@ -40,8 +40,6 @@ def dialog(chapterType,chapterId,screen,part,collection_name=None):
         DIALOG.new(chapterType,chapterId,part,collection_name)
     else:
         DIALOG.load("Save/save.yaml")
-    #背景音乐可以开始播放了
-    DIALOG.ready()
     #DIALOG.auto_save = True
     #主循环
     while DIALOG.is_playing():
@@ -51,14 +49,12 @@ def dialog(chapterType,chapterId,screen,part,collection_name=None):
     return DIALOG.dialog_options
 
 #对话编辑器
-def dialogCreator(chapterType,chapterId,screen,part,collection_name=None):
+def dialogCreator(chapterType,chapterId,screen):
     #卸载音乐
     linpg.unloadBackgroundMusic()
-    linpg.display.set_caption("{0} ({1})".format(linpg.get_lang('General','game_title'),linpg.get_lang('General','dialog_creator')))
     #加载对话
-    DIALOG = linpg.DialogSystemDev(chapterType,chapterId,part,collection_name)
+    DIALOG = linpg.DialogSystemDev(chapterType,chapterId)
     #主循环
     while DIALOG.is_playing():
         DIALOG.display(screen)
         linpg.display.flip()
-    linpg.display.set_caption(linpg.get_lang('General','game_title'))
