@@ -167,8 +167,8 @@ dialogs:
         target: 13
         type: changeScene
     13:
-      background_img: bg2.png
-      background_music: bgm2.ogg
+      background_img: bg3.png
+      background_music: bgm3.ogg
       characters_img:
       - maria.png&dark
       - lucy.png
@@ -179,3 +179,240 @@ dialogs:
       next_dialog_id:
         target: 14
         type: default
+    14:
+      background_img: bg3.png
+      background_music: bgm3.ogg
+      characters_img:
+      - maria.png
+      - lucy.png&dark
+      content:
+      - Me too! But do not forget our mission
+      - We need to find some food.
+      last_dialog_id: 13
+      narrator: Maria
+      next_dialog_id:
+        target: 15
+        type: default
+    15:
+      background_img: bg3.png
+      background_music: bgm3.ogg
+      characters_img:
+      - maria.png&dark
+      - lucy.png
+      content:
+      - Ok.. I see.
+      last_dialog_id: 14
+      narrator: Lucy
+      next_dialog_id:
+        target: 16
+        type: default
+    16:
+      background_img: bg3.png
+      background_music: bgm3.ogg
+      characters_img:
+      - maria.png&dark
+      - lucy.png&dark
+      content:
+      - After rainy days, it is easy for us to find a lot of mushrooms in the forest.
+      - Most of them are filled with nutrition and energy. Besides, they are delicious.
+      last_dialog_id: 15
+      narrator: null
+      next_dialog_id:
+        target: 17
+        type: default
+    17:
+      background_img: bg3.png
+      background_music: bgm3.ogg
+      characters_img:
+      - maria.png&dark
+      - lucy.png&dark
+      content:
+      - Suddenly, I hear some noise.
+      last_dialog_id: 16
+      narrator: null
+      next_dialog_id:
+        target: 18
+        type: default
+    18:
+      background_img: bg3.png
+      background_music: bgm3.ogg
+      characters_img:
+      - maria.png
+      - lucy.png&dark
+      content:
+      - Do you hear something? What is that?
+      last_dialog_id: 17
+      narrator: Maria
+      next_dialog_id:
+        target: 19
+        type: default
+    19:
+      background_img: bg3.png
+      background_music: bgm4.ogg
+      characters_img:
+      - maria.png&dark
+      - lucy.png
+      content:
+      - I also hear that. The sound from the horses!
+      last_dialog_id: 18
+      narrator: Lucy
+      next_dialog_id:
+        target: 20
+        type: default
+    20:
+      background_img: bg3.png
+      background_music: bgm4.ogg
+      characters_img:
+      - maria.png
+      - lucy.png&dark
+      content:
+      - Hide yourself! Right now!
+      last_dialog_id: 19
+      narrator: Maria
+      next_dialog_id:
+        target: 21
+        type: default
+    21:
+      background_img: bg3.png
+      background_music: bgm4.ogg
+      characters_img:
+      - maria.png&dark
+      - lucy.png&dark
+      content:
+      - We hide ourselves into the bushes nearby.
+      - We see some knights coming by riding their houses.
+      - Then they stop.
+      last_dialog_id: 20
+      narrator: null
+      next_dialog_id:
+        target: 22
+        type: default
+    22:
+      background_img: bg3.png
+      background_music: bgm4.ogg
+      characters_img:
+      - maria.png&dark
+      - lucy.png
+      content:
+      - Are they looking for us?
+      last_dialog_id: 21
+      narrator: Lucy
+      next_dialog_id:
+        target: 23
+        type: default
+    23:
+      background_img: bg3.png
+      background_music: bgm4.ogg
+      characters_img:
+      - maria.png
+      - lucy.png&dark
+      content:
+      - It looks like not. Let us be careful and see.
+      last_dialog_id: 22
+      narrator: Maria
+      next_dialog_id:
+        target: 24
+        type: default
+    24:
+      background_img: bg3.png
+      background_music: bgm4.ogg
+      characters_img:
+      - maria.png&dark
+      - lucy.png&dark
+      content:
+      - Listen up, we must find him! He must be somewhere nearby!
+      last_dialog_id: 23
+      narrator: Knight
+      next_dialog_id:
+        target: 25
+        type: default
+    25:
+      background_img: bg3.png
+      background_music: bgm4.ogg
+      characters_img:
+      - maria.png&dark
+      - lucy.png&dark
+      content:
+      - Yes, sir!
+      last_dialog_id: 24
+      narrator: Other knights
+      next_dialog_id:
+        target: 26
+        type: default
+    26:
+      background_img: bg3.png
+      background_music: bgm4.ogg
+      characters_img:
+      - maria.png&dark
+      - lucy.png&dark
+      content:
+      - Then they spread out.
+      last_dialog_id: 25
+      narrator: null
+      next_dialog_id:
+        target: 27
+        type: default
+    27:
+      background_img: bg3.png
+      background_music: bgm3.ogg
+      characters_img:
+      - maria.png
+      - lucy.png&dark
+      content:
+      - We have to leave now and go home, otherwise they will find us.
+      last_dialog_id: 26
+      narrator: Maria
+      next_dialog_id:
+        target: 28
+        type: default
+    28:
+      background_img: bg3.png
+      background_music: bgm3.ogg
+      characters_img:
+      - maria.png&dark
+      - lucy.png
+      content:
+      - Ok...what a pity.
+      last_dialog_id: 27
+      narrator: Lucy
+      next_dialog_id:
+        target: 29
+        type: default
+    29:
+      background_img: bg3.png
+      background_music: bgm3.ogg
+      characters_img:
+      - maria.png&dark
+      - lucy.png&dark
+      content:
+      - Then we leave without any sound.
+      last_dialog_id: 28
+      narrator: null
+      next_dialog_id:
+        target: 30
+        type: default
+    30:
+      background_img: bg3.png
+      background_music: bgm3.ogg
+      characters_img:
+      - maria.png&dark
+      - lucy.png&dark
+      content:
+      - To be continue...
+      last_dialog_id: 29
+      narrator: null
+      next_dialog_id:
+        target: 31
+        type: default
+    31:
+      background_img: bg3.png
+      background_music: bgm3.ogg
+      characters_img:
+      - maria.png&dark
+      - lucy.png&dark
+      content:
+      - Thanks for playing the demo!
+      - Please click to go back the main menu.
+      last_dialog_id: 30
+      narrator: null
+      next_dialog_id: null

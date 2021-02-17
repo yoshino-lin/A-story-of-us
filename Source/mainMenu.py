@@ -14,6 +14,7 @@ class MainMenu(linpg.SystemWithBackgroundMusic):
         self.bg_img = linpg.loadImage("Assets/image/UI/bg0.png",(0,0),screen.get_width(),screen.get_height())
         #初始化返回菜单判定参数
         linpg.set_glob_value("BackToMainMenu",False)
+        self.set_bgm_volume(linpg.get_setting("Sound","background_music")/100)
     def display(self,screen):
         #主循环
         while self._isPlaying:

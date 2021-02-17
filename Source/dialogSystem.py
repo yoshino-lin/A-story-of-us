@@ -54,6 +54,8 @@ def dialogCreator(chapterType,chapterId,screen):
     linpg.unloadBackgroundMusic()
     #加载对话
     DIALOG = linpg.DialogSystemDev(chapterType,chapterId)
+    DIALOG.auto_save = True
+    DIALOG.smart_add_mode = True
     #主循环
     while DIALOG.is_playing():
         DIALOG.display(screen)
